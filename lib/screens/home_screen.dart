@@ -25,7 +25,7 @@ class _HomeScreenState extends State<HomeScreen> {
             MaterialPageRoute(
                 builder: (_) => RestaurantScreen(restaurant: restaurant))),
         child: Container(
-          margin: EdgeInsets.symmetric(horizontal: 15.0, vertical: 10.0),
+          margin: EdgeInsets.symmetric(horizontal: 13.0, vertical: 10.0),
           decoration: BoxDecoration(
               color: Colors.white,
               borderRadius: BorderRadius.circular(15.0),
