@@ -133,7 +133,7 @@ class _CartScreenState extends State<CartScreen> {
                 return _buildCartItem(order);
               }
               return Padding(
-                padding: const EdgeInsets.all(20.0),
+                padding:  EdgeInsets.all(20.0),
                 child: Column(
                   children: [
                     Row(
