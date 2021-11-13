@@ -120,6 +120,8 @@ class _CartScreenState extends State<CartScreen> {
         (Order order) => totalPrice += order.quantity * order.food.price);
     return Scaffold(
         appBar: AppBar(
+          centerTitle: true,
+          backgroundColor: Colors.deepOrangeAccent,
           title: Text(
             "Cart (${currentUser.cart.length})",
           ),
@@ -168,9 +170,6 @@ class _CartScreenState extends State<CartScreen> {
                               fontWeight: FontWeight.w600),
                         )
                       ],
-                    ),
-                    SizedBox(
-                      height: 80.0,
                     ),
                   ],
                 ),
