@@ -187,7 +187,7 @@ class _CartScreenState extends State<CartScreen> {
             itemCount: currentUser.cart.length),
         bottomSheet: Container(
           height: 100,
-          width: MediaQuery.of(context).size.width,
+          
           decoration:
               BoxDecoration(color: Theme.of(context).primaryColor, boxShadow: [
             BoxShadow(

@@ -26,7 +26,7 @@ class _HomeScreenState extends State<HomeScreen> {
                 builder: (_) => RestaurantScreen(restaurant: restaurant))),
         child: Container(
           margin: EdgeInsets.symmetric(horizontal: 13.0, vertical: 10.0),
-          decoration: BoxDecoration(
+            decoration: BoxDecoration(
               color: Colors.white,
               borderRadius: BorderRadius.circular(15.0),
               border: Border.all(width: 1.0, color: Colors.grey.shade200)),
